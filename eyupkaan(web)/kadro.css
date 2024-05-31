@@ -1,0 +1,49 @@
+
+.kart {
+  width: 250px;
+  height: 300px;
+  background-color:orange;            //*#021037;*//
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 20px;
+  float: left; 
+  margin-bottom: 20px; 
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.profilSablon {
+  width: 250px;
+  height: 180px;
+  background-color:#ffc93b;;
+  //*background: url(yildiz.jpg);*//
+  background-size: 150px 100px;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profilResim {
+  left:-3px;
+  top:50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+  border: 2px solid white;
+  z-index: 2;
+  position:relative;
+}
+
+.kart p {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.kart b {
+  font-size: 15px;
+}
+
+.kart hr {
+  width: 100px;
+  margin-left: 75px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Kayıt Ol</title>
+<style>
+    body {
+   display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        margin: 0;
+    }
+    .kayit-formu {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+    }
+    .kayit-formu input[type="text"],
+    .kayit-formu input[type="password"] {
+        width: 275px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .kayit-formu input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffc93b;
+        color: white;
+        cursor: pointer;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+</style>
+	<script type = "text/javascript" src = "giriskayit.js"> </script>
+</head>
+<body>
+    <div class="kayit-formu">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h2>Kayıt Ol</h2>
+        <form action="/kayit" method="get">
+            <input type="text" name="isim" placeholder="İsim" required><br>
+            <input type="text" name="soyisim" placeholder="Soyisim" required><br>
+            <input type="text" name="email" placeholder="E-posta" required><br>
+            <input type="password" name="sifre" placeholder="Şifre" required><br>
+            <input type="submit" value="Kayıt Ol" onclick="onayla()">
+						<p> <u> <a href = "index.html"> Ana sayfaya dön.<p>
+						<p> <u> <a href = "giris_yap.html"> Bize üyeyseniz tıklayınız.<p>
+        </form>
+    </div>
+</body>
+</html>

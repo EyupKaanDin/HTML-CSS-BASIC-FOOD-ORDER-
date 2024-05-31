@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ödeme Formu</title>
+    <link rel="stylesheet" href="odeme.css">
+	<script type = "text/javascript" src = "giriskayit.js"> </script>
+</head>
+<body>
+    <div class="ana-kutu">
+        <h1>Ödemenizi Onaylayın</h1>
+        <form>
+            <div class="giris-alani">
+                <label ="ad">Ad Soyad</label>
+                <input type="text" id="ad" name="ad" required>
+            </div>
+			
+            <div class="giris-alani">
+                <label ="kart-no">Kart Numarası</label>
+                <input type="text" id="kart-no" name="kart-no" required>
+            </div>
+			
+            <div class="giris-alani">
+                <label ="son-tarih">Son Kullanma Tarihi</label>
+                <input type="text" id="son-tarih" name="son-tarih" placeholder="AA/YY" required>
+            </div>
+			
+            <div class="giris-alani">
+                <label ="cvv">CVV</label>
+                <input type="password" id="cvv" name="cvv" required>
+            </div>
+			
+            <div class="kartlar">
+                <img src="mc.png" alt="Mastercard">
+                <img src="vi.png" alt="Visa">
+            </div>
+			
+            <div class="buton-alani">
+                <button type="submit" onclick ="onayla()">Ödemeyi Tamamla</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

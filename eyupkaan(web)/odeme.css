@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(orange, white);
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ana-kutu {
+    width: 390px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.ana-kutu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.giris-alani {
+    margin-bottom: 15px;
+}
+
+.giris-alani label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.giris-alani input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.kartlar {
+    display: flex;
+    justify-content: space-arround;
+    margin-bottom: 20px;
+}
+
+.kartlar img {
+    width: 50px;
+}
+
+.buton-alani {
+    text-align: center;
+}
+
+.buton-alani button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buton-alani button:hover {
+    background-color: #ff7f00;
+}

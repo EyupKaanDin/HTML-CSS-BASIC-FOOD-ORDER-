@@ -1,0 +1,139 @@
+ul {
+  list-style-type: none;
+}
+.liste {
+	  font-size:10px;
+}
+
+ .resim-özellik {
+            display :flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; 
+        }
+		
+		.yazi{
+            max-width: 100%; 
+            max-height: 100%;
+            height: auto;  
+            width: auto;
+        }
+		body {
+    margin: 0;
+    
+		}
+	
+	.header {
+    text-align: center; 
+    background-color: #f8f8f8; 
+    padding: 20px 0; 
+}
+
+.site-basligi {
+    font-size: 36px; 
+    font-weight: bold;
+    color:#333; 
+    margin: 0; 
+}       
+
+.yatayacilir_menu ul
+{
+	margin:0px; padding:0px;
+	list-style-type:none;
+	
+}
+
+.yatayacilir_menu ul li
+{
+	margin-top:100px;
+	float:left;
+	height:35px;
+	width:365px; 
+	position:relative;
+	background-color:orange;
+	padding:3px;
+	font-family:Arial, sans serif;
+}
+.yatayacilir_menu ul li a
+{
+	height:30px;
+	display:block;
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+	padding-left:10px;
+	line-height:30px;
+	font-size:14px;
+}
+.yatayacilir_menu ul li a:hover
+{
+	height:30px;
+	display:block;
+	font-weight:normal;
+	color:black;
+	text-decoration:underline;
+	padding-left:10px;
+    line-height:30px;
+	background-color:orange;
+	font-size:14px;
+}
+.yatayacilir_menu ul ul li {
+    margin-top: 7px; 
+}
+.yatayacilir_menu ul li ul 
+{
+	position:absolute;
+	left:0px;
+	top:30px;
+	background-color: orange; 
+	z-index:1;
+	display:none;
+}
+.yatayacilir_menu ul li:hover ul 
+{
+	display:block;
+	z-index:1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste-düzen {
+    margin-right: 10px;
+	color:#383838
+}
+h1 {
+	font-size:36px; 
+	 position: absolute;
+    top: 75px;
+    left: 40%;
+	border: 5px solid #ffc93b;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Arial Black', sans-serif; 
+	text-align:center;
+    margin: 0;
+}
+.resimlerözel {
+        border-radius: 20px; 
+    }
+.marquee-yazi {
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  color: #333; 
+  position: relative;
+  left: 1px;
+text-align:center;
+top:-85px;  
+}
+	.baslik-kalin {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}

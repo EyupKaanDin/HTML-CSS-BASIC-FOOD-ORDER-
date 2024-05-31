@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Giriş Yap</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        margin: 0;
+    }
+    .giris-formu {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+ 
+    }
+    .giris-formu input[type="text"],
+    .giris-formu input[type="password"] {
+        width: 275px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .giris-formu input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffc93b;
+        color: white;
+        cursor: pointer;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+</style>
+<script type = "text/javascript" src = "giriskayit.js"> </script>
+</head>
+<body>
+    <div class="giris-formu">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h2>Giriş Yap</h2>
+        <form action="/giris" method="get">
+            <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adı" required><br>
+            <input type="password" name="sifre" placeholder="Şifre" required><br>
+            <input type="submit" value="Giriş Yap" onclick="onayla()">
+			<p> <u> <a href = "index.html"> Ana sayfaya dön.<p>
+				<p> <u> <a href = "yeni_sayfa.html"> Hala kayıt olmadın mı ?<p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+function onayla()
+{
+	prompt("Onayla");
+}
